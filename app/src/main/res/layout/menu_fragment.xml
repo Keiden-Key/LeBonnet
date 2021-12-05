@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/backgroud_menu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MenuFragment">>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:text="@string/app_name"
+        android:textColor="@color/red_app_name"
+        android:textSize="20dp"
+        android:fontFamily="@font/walley1"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/subtitle_app_name"
+        android:textColor="@color/red_app_name_subtitle"
+        android:layout_gravity="center_horizontal"
+        android:textSize="13dp"
+        android:fontFamily="@font/walley2"/>
+
+    <TextView
+        android:layout_width="215dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="70dp"
+        android:fontFamily="@font/bodoni_bold"
+        android:gravity="center_horizontal"
+        android:text="@string/title"
+        android:textColor="@color/black"
+        android:textSize="40dp"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/subtitle_title"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="3dp"
+        android:textSize="20dp"
+        android:fontFamily="@font/bodoni_roman"
+        />
+
+
+    <ImageButton
+        android:id="@+id/next_button"
+        android:layout_width="126dp"
+        android:layout_height="83dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:background="@color/backgroud_image_button"
+        android:src="@drawable/button_next" />
+
+</LinearLayout>

@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Le Bonnet</string>
+
+    <string name="subtitle_app_name">Amsterdan</string>
+    <string name="title">YOUR  EVERYDAY   BEANIE</string>
+    <string name="subtitle_title">We got you covered</string>
+
+    <string name="product_price">Price</string>
+    <string name="product_title">Title</string>
+    <string name="product_description">Description</string>
+    <string name="button_card">I want this</string>
+
+
+    <string name="detail_title">Title</string>
+    <string name="detail_descripcion">Description</string>
+    <string name="detail_precio">Price</string>
+    <string name="detail_button">BUY NOW</string>
+    <string name="cantidad">1</string>
+
+
+    <string name="username">Username</string>
+    <string name="pasword">Password</string>
+    <string name="boton_siguiente">Next</string>
+    <string name="boton_cancelar">Cancel</string>
+
+
+
+</resources>
